@@ -1,0 +1,276 @@
+*{
+    box-sizing: border-box
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.complete{
+    background-color:#385898;
+    height: 82px;
+    width: 100%;
+    float: left;
+}
+
+.half{
+    width: 50%;
+    float: left;
+}
+
+#top{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: absolute;
+    left: 23%;
+    top: 2%;
+}
+
+#tabl table{
+    position: absolute;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 2%;
+    left: 56%;
+    color: white;
+    width: 21%;
+}
+
+#tabl input[type=text]{
+    width:94%;
+    background-color: white;
+    outline: none;
+    border:black;
+}
+
+#tabl input[type=password]{
+    width:94%;
+    background-color: white;
+    outline: none;
+    border:black;
+}
+
+#tabl input[type=submit]{
+    width:100%;
+    background-color: #4267b2;
+    height:24px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    outline: none;
+    border: 1px solid #ccd0d5;
+    border-color:#29487d;
+}
+
+#tabl input[type=submit]:hover{
+    background-color: #385898;
+    cursor:pointer;
+}
+
+#forgot{
+    color:#9cb4d8;
+}
+
+#forgot:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#grad{
+    background:linear-gradient(white, #D3D8E8);
+    color:#1c1e21;
+    height: 58%;
+}
+
+#grad #connect{
+    color:#0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left:23%;
+    width:25%;
+}
+
+#grad #acc{
+    position: absolute;
+    left: 55%;
+    line-height: 0.8;
+}
+
+#grad #acc #create{
+    font-size: 36px;
+    font-weight: 600;
+    color: #333;
+}
+
+#grad #acc #fun{
+    color:#1d2129;
+    font-size:19px;
+}
+
+#grad #acc .in input[type=text]{
+    height:40px;
+    border: 1px solid #bdc7d8;
+    border-radius: 5px; 
+    font-size:18px;
+    outline: none;
+    color:#999;
+    padding:10px;
+}
+
+#grad #acc .in input[type=text]:focus{
+    color:black;
+}
+
+#grad #acc #name input[type=text]{
+    width:200px;
+}
+
+#grad #acc #address input[type=text]{
+    width:405px;
+}
+#grad #acc #birth{
+    color:#90949c;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#grad #acc #birth select{
+    background-color:white;
+    border: 1px solid #ccd0d5;
+    height: 30px;
+    font-size: 13px;
+}
+
+#grad #acc #birth #date{
+    width: 8%;
+}
+
+#grad #acc #birth #month{
+    width:9%;
+}
+
+#grad #acc #birth #year{
+    width: 60px;
+}
+
+#grad #acc #birth #radio{
+    padding: 0 10px 0 3px;
+    color:#1d2129;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+#grad #acc #conditions{
+    color: #777;
+    font-size: 11px;
+    width: 45%;
+    line-height: 15px;
+}
+
+#grad #acc #conditions a{
+    cursor: pointer;
+    color: #385898;
+    text-decoration: none;
+}
+
+#grad #acc #conditions a:hover{
+    text-decoration: underline;
+}
+
+#grad #acc #sign input[type=submit]{
+    width: 25%;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    font-family:  'Freight Sans Bold', Helvetica, Arial, sans-serif;
+    background: linear-gradient(#67ae55, #578843);
+    border: 1px solid;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border-radius: 5px;
+    cursor: pointer;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+
+#grad #acc #sign input[type=submit]:hover{
+    background: linear-gradient(#578843, #67ae55);
+}
+
+#footer{
+    background-color: white;
+    position: absolute;
+    left: 23%;
+    top: 75%;
+}
+
+#footer #lang{
+    color: #385898;
+    font-size: 12px;
+} 
+
+#footer #lang .lang{
+    color: #385898;
+    float: left;
+    padding: 6px;
+    cursor: pointer;
+}
+
+#footer #lang .lang:hover{
+    text-decoration: underline;
+}
+
+#footer #lang #eng{
+    color: #737373;
+}
+
+#footer #lang #eng:hover{
+    text-decoration: none;
+    cursor: text;
+}
+
+#footer #lang input[type=submit]{
+    background-color: #f5f6f7;
+    border: 1px solid;
+    border-color: #ccd0d5;
+    color: #4b4f56;
+    width: 2%;
+    height: 23px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size:18px;
+}
+
+#footer #lang input[type=submit]:hover{
+    background-color: #e4e8ec;
+}
+
+#footer #line{
+    border-bottom: 1px solid #dddfe2;
+    width: 55%;
+}
+
+#footer #links{
+    color: #385898;
+    font-size: 12px;
+    line-height: 1;
+} 
+
+
+#footer #links .lang{
+    float: left;
+    padding: 6px;
+    cursor: pointer;
+}
+
+#footer #links .lang:hover{
+    text-decoration: underline;
+}
+
+#footer #trade{
+    font-size: 11px;
+    color:#737373;
+    padding: 6px;
+}
